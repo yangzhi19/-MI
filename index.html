@@ -1,0 +1,226 @@
+<!DOCTYPE html>
+<html lang="zh">
+	<head>
+		<meta charset="UTF-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<meta http-equiv="X-UA-Compatible" content="ie=edge">
+		<script src="js/rem.js"></script>
+		<link rel="stylesheet" href="css/base.css">
+		<link rel="stylesheet" href="css/style.css">
+		<title>Document</title>
+	</head>
+	<body>
+		<div class="root">
+			<main>
+				<div class="head">
+					<div class="head-top">
+						<div class="head-top-logo">
+							<img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAEwAAAAyCAYAAAD2vz2aAAAAGXRFWHRTb2Z0d2FyZQBBZG9iZSBJbWFnZVJlYWR5ccllPAAAAyhpVFh0WE1MOmNvbS5hZG9iZS54bXAAAAAAADw/eHBhY2tldCBiZWdpbj0i77u/IiBpZD0iVzVNME1wQ2VoaUh6cmVTek5UY3prYzlkIj8+IDx4OnhtcG1ldGEgeG1sbnM6eD0iYWRvYmU6bnM6bWV0YS8iIHg6eG1wdGs9IkFkb2JlIFhNUCBDb3JlIDUuNi1jMTM4IDc5LjE1OTgyNCwgMjAxNi8wOS8xNC0wMTowOTowMSAgICAgICAgIj4gPHJkZjpSREYgeG1sbnM6cmRmPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5LzAyLzIyLXJkZi1zeW50YXgtbnMjIj4gPHJkZjpEZXNjcmlwdGlvbiByZGY6YWJvdXQ9IiIgeG1sbnM6eG1wPSJodHRwOi8vbnMuYWRvYmUuY29tL3hhcC8xLjAvIiB4bWxuczp4bXBNTT0iaHR0cDovL25zLmFkb2JlLmNvbS94YXAvMS4wL21tLyIgeG1sbnM6c3RSZWY9Imh0dHA6Ly9ucy5hZG9iZS5jb20veGFwLzEuMC9zVHlwZS9SZXNvdXJjZVJlZiMiIHhtcDpDcmVhdG9yVG9vbD0iQWRvYmUgUGhvdG9zaG9wIENDIDIwMTcgKE1hY2ludG9zaCkiIHhtcE1NOkluc3RhbmNlSUQ9InhtcC5paWQ6MjQ2OUE2MkU0RTQ4MTFFNzgxOTZBRDJFQjk4Qjk0NjQiIHhtcE1NOkRvY3VtZW50SUQ9InhtcC5kaWQ6MjQ2OUE2MkY0RTQ4MTFFNzgxOTZBRDJFQjk4Qjk0NjQiPiA8eG1wTU06RGVyaXZlZEZyb20gc3RSZWY6aW5zdGFuY2VJRD0ieG1wLmlpZDpCOUQ0QkM2RjREQ0MxMUU3ODE5NkFEMkVCOThCOTQ2NCIgc3RSZWY6ZG9jdW1lbnRJRD0ieG1wLmRpZDpCOUQ0QkM3MDREQ0MxMUU3ODE5NkFEMkVCOThCOTQ2NCIvPiA8L3JkZjpEZXNjcmlwdGlvbj4gPC9yZGY6UkRGPiA8L3g6eG1wbWV0YT4gPD94cGFja2V0IGVuZD0iciI/PiL8gcIAAAF1SURBVHja7Ju/LwRRFEbf+FVsQ0dBdJKNSksUSqVCr6AhKxGVwn+gVUpQEI1So5XoZUOhEbKMDiESIeOTzPbvzpoxz5wvOd3duzsn++7cSXajZMU9OOeGXPmTiHtxIU7FoYh/oe+ZmPKsjSMJS1yY+RS7YrNDcTdi1Le4y4WbHrEorsRcUW8asrB2BsSxWEeYLVtiCWG2bIsJhPmnV+zkeV3/TZhLv2HzCLNlFWG2TIqRvHYZa97FR84XXEvnUSeZEft/LexZDIvXnIVFop6uCQ3RnaHHeBmO5FMBstrPjZdiTUyLlww9Bqs6w87FcobX9Vd56B+IZoZjXVlhP0f0qAwfJKS1ookw+w0HYaEFYQVs+j4ZE7Oed6o3sVfA00OphW2IBUN9S5xU+Uhad6A+ZhhDnyAMYQhDGMIQRhCGMIQhDGEEYQhDGMIQhjCCMIQhDGEIIwhDWFHCLP81vPOsezT0/BK3nj0tP1i59qxrGXrG3wIMAK5yNsqRAjAyAAAAAElFTkSuQmCC">
+						</div>
+						<div class="head-top-sousuo">
+							<i class="iconfont">&#xe643;</i>
+							搜索商品名称
+						</div>
+						<div class="head-top-my">
+							<img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAADwAAAA8CAMAAAANIilAAAAAkFBMVEUAAABiYmJoaGhxcXFwcHBwcHBycnJwcHBwcHBwcHBwcHBwcHBwcHBwcHBwcHBwcHBwcHBzc3NycnJwcHB2dnZwcHBwcHBxcXFwcHBwcHBwcHBwcHBwcHBwcHBwcHBvb29wcHBwcHBwcHBwcHBwcHBwcHBwcHBwcHBwcHBvb29wcHBwcHBwcHBwcHBnZ2dwcHC6NtRcAAAAMHRSTlMAAwoXHycsRXWfxdzz+jB+vv8ljv/+72HU682aahOXTQ+wNblUtazlb1elWuE7B4ObTEwxAAADdklEQVR4AZWWh5rqOgyEnd7LEA2k0Os24P3f7vLdBVOSTTizBbfflmVZWHXJUBeZlu24rmNbpm56U5bnB2EUJ0kchYHvWep9pVke40FxnqX9hLZ4VEQQgEk8vihOCAiiYnTpHGKNSQmAVd1MvdRxUm/a1BUBlJNLZz87mycAo2axNHTjctFEBJL5rI82lL0SYjxfX+sX/ZbW8zEoK1sZPexGiHL7cDa6uC1B2XTQ2uaVEDv3idS8uwNl9bflhRB7q7vbUNYelOKvhRck8g5W0znIhTI6+2rwsO5zyfpA1N2zfwg5Ub2akPLR6a0I2Jn9J2nugKjLZ5/s3FDLLfxUba0guTUYgLlg1e6wIkg2HPqZIJq1DRpj3Gu1HlbpYbrVT6QcDcOjWpKPFlxAclMNyswFRQv+ElmpN7QS+WrBe5H9kNV6XP/Kre5HuL3yHLIx1LB2gnkLzii1peuW9RwES10KhVkL/o5x8G6tXlnq8kXTn91vCjHU8Ufi75Zv3AMwvbUWIuFSGbebWIlsr+UpcXBVSyHk6zbjBGRxO3UnB+PrPT99CULVVkZU66txy42Q+/X/w7c1KGdtBJh1wE6lM5Sh0lKIn+Dbm+5iEF+3O1wIK0d1aA6Oj7ddpzkAxuMEv9le/bprTDSdsZNWxEanCescERAgCSeXputuwCrtjsMMRHEZdI2p1N/XUdhMLB1lBYjsrzSxAZk9BOPSSUfGfTaflFyb1kqtEZhkevjvqNv/U5YQUU9qXlQgG/s+n6GH2gGIaqF6tD2ACL/NVg74DEEctqpXXg0i3kxe5lzFIGpPDcgJElA4ffouiYVIAkcN6vRdM0HsKkP7MUHC8PvUz11d3JDE8Q57QrL47Rt4DB2bmMRudoetXMi4OQ4+h2b+Dwis7Ke7vieIH3/Zz7orgizPs5eT8ksS3Lt97LEE8XN+fa9dKs75AKI89rCREJujemavVS8HJTr+FdpuKUQwa6FX3ArAru8znXtQmH8/aMwClFX3gDOI5tT3oDk1IM6dG44fEknPjY+7nLbDLXuqvscUsGs3b2NtUR+dgfG2tcRe9PusD7ZLyKplzw94VidjSKoAfvTurrAPRLZ6Q3YE+C8WBoLQHjmjATkjO4QEL8EVgUn1lhKidJXxAC9A4k2RWDzBn5LwPSVkIp9Pm16m7j8ovWaF/wCc31NtcLeHeAAAAABJRU5ErkJggg==">
+						</div>
+					</div>
+					<div class="head-bottom">
+						<div class="list">
+							<ul>
+								<li>推荐</li>
+								<li>手机</li>
+								<li>圣诞特惠</li>
+								<li>智能</li>
+								<li>电视</li>
+								<li>笔记</li>
+								<li>笔记</li>
+								<li>笔记</li>
+								<li>笔记</li>
+								<li>笔记</li>
+								<li>笔记</li>
+							</ul>
+						</div>
+						<div class="icon">
+							<i class="iconfont">&#xe756;</i>
+						</div>
+					</div>
+				</div>
+				<!-- 头部结束 -->
+				<!-- banner开始 -->
+				<div class="banner">
+					<ul>
+						<li>
+							<img src="https://i8.mifile.cn/v1/a1/c39a9ca3-d498-2a5e-731a-22cdd0f160e5!720x360.webp" alt="">
+						</li>
+						<li>
+							<img src="https://cdn.cnbj1.fds.api.mi-img.com/mi-mall/ec07009535108a586d8e7d4d7fe96262.jpg?thumb=1&w=720&h=360"
+							 alt="">
+						</li>
+						<li>
+							<img src="http://i8.mifile.cn/v1/a1/ea5e9960-37f2-6e7d-de8e-df3c481f1562!720x360.webp" alt="">
+						</li>
+					</ul>
+					<div class="dian">
+						<div></div>
+						<div></div>
+						<div></div>
+					</div>
+				</div>
+				<!-- banner结束 -->
+				<!-- 菜单开始 -->
+				<div class="menu">
+					<a href="">
+						<img src="https://i8.mifile.cn/v1/a1/a5f053af-fbc3-2a99-65e4-14ff7715957d!144x152.webp" alt="">
+					</a>
+					<a href="">
+						<img src="https://i8.mifile.cn/v1/a1/a5f053af-fbc3-2a99-65e4-14ff7715957d!144x152.webp" alt="">
+					</a>
+					<a href="">
+						<img src="https://i8.mifile.cn/v1/a1/a5f053af-fbc3-2a99-65e4-14ff7715957d!144x152.webp" alt="">
+					</a>
+					<a href="">
+						<img src="https://i8.mifile.cn/v1/a1/a5f053af-fbc3-2a99-65e4-14ff7715957d!144x152.webp" alt="">
+					</a>
+					<a href="">
+						<img src="https://i8.mifile.cn/v1/a1/a5f053af-fbc3-2a99-65e4-14ff7715957d!144x152.webp" alt="">
+					</a>
+					<a href="">
+						<img src="https://i8.mifile.cn/v1/a1/b05bf09b-a0a7-ef8f-e5ba-500b1549938c!144x152.webp" alt="">
+					</a>
+					<a href="">
+						<img src="https://i8.mifile.cn/v1/a1/b05bf09b-a0a7-ef8f-e5ba-500b1549938c!144x152.webp" alt="">
+					</a>
+					<a href="">
+						<img src="https://i8.mifile.cn/v1/a1/b05bf09b-a0a7-ef8f-e5ba-500b1549938c!144x152.webp" alt="">
+					</a>
+					<a href="">
+						<img src="https://i8.mifile.cn/v1/a1/b05bf09b-a0a7-ef8f-e5ba-500b1549938c!144x152.webp" alt="">
+					</a>
+					<a href="">
+						<img src="https://i8.mifile.cn/v1/a1/b05bf09b-a0a7-ef8f-e5ba-500b1549938c!144x152.webp" alt="">
+					</a>
+				</div>
+
+				<!-- 菜单结束 -->
+				<!-- 内容1开始 -->
+				<div class="con1">
+					<div class="con1-left">
+						<img src="https://i8.mifile.cn/v1/a1/2bcfae43-5b1b-b44d-567c-b9528983f278!358x508.webp" alt="">
+					</div>
+					<div class="con1-right">
+						<div class="con1-right-top">
+							<img src="https://i8.mifile.cn/v1/a1/e4db2c88-59bb-7ed2-81f6-a42419857ae4!358x252.webp" alt="">
+						</div>
+						<div class="con1-right-bottom">
+							<img src="https://i8.mifile.cn/v1/a1/83d4a193-f721-51bc-7d64-57545ff1b00d!358x252.webp" alt="">
+						</div>
+					</div>
+				</div>
+				<div class="con1-tu">
+					<img src="https://i8.mifile.cn/v1/a1/e896f1d0-708e-6e13-f9b8-e4d7f0e19c03!720x280.webp" alt="">
+				</div>
+				<!-- 内容1结束 -->
+
+				<!-- 超级推荐开始 -->
+				<div class="super-tu">
+					<img src="https://i8.mifile.cn/v1/a1/95195df5-70d6-2347-0ecd-994dc472bdd4!720x440.webp" alt="">
+				</div>
+				<div class="super-phone">
+					<div class="super-phone-left">
+						<img src="https://i8.mifile.cn/v1/a1/1c3e0097-73a6-1788-96f7-2cdb58d82ba1!360x360.webp" alt="">
+						<div class="text1">小米8 青春版</div>
+						<div class="text2">潮流镜面渐变色，自拍旗舰</div>
+						<div class="text3">
+							<i class="iconfont">&#xe645;</i>1399
+							<span>起</span>
+						</div>
+					</div>
+					<div class="super-phone-right">
+						<img src="https://i8.mifile.cn/v1/a1/5c55b30b-abd9-3a52-7f8b-7322d288835d!360x360.webp" alt="">
+						<div class="text1">小米8 屏幕指纹版</div>
+						<div class="text2">压感屏幕指纹，潮流外观</div>
+						<div class="text3">
+							<i class="iconfont">&#xe645;</i>3099
+							<span>起</span>
+							<em><i class="iconfont">&#xe645;</i><s>3199</s></em>
+						</div>
+					</div>
+				</div>
+				<div class="super-phone">
+					<div class="super-phone-left">
+						<img src="https://i8.mifile.cn/v1/a1/1c3e0097-73a6-1788-96f7-2cdb58d82ba1!360x360.webp" alt="">
+						<div class="text1">小米8 青春版</div>
+						<div class="text2">潮流镜面渐变色，自拍旗舰</div>
+						<div class="text3">
+							<i class="iconfont">&#xe645;</i>1399
+							<span>起</span>
+						</div>
+					</div>
+					<div class="super-phone-right">
+						<img src="https://i8.mifile.cn/v1/a1/5c55b30b-abd9-3a52-7f8b-7322d288835d!360x360.webp" alt="">
+						<div class="text1">小米8 屏幕指纹版</div>
+						<div class="text2">压感屏幕指纹，潮流外观</div>
+						<div class="text3">
+							<i class="iconfont">&#xe645;</i>3099
+							<span>起</span>
+							<em><i class="iconfont">&#xe645;</i><s>3199</s></em>
+						</div>
+					</div>
+				</div>
+				<div class="super-phone">
+					<div class="super-phone-left">
+						<img src="https://i8.mifile.cn/v1/a1/1c3e0097-73a6-1788-96f7-2cdb58d82ba1!360x360.webp" alt="">
+						<div class="text1">小米8 青春版</div>
+						<div class="text2">潮流镜面渐变色，自拍旗舰</div>
+						<div class="text3">
+							<i class="iconfont">&#xe645;</i>1399
+							<span>起</span>
+						</div>
+					</div>
+					<div class="super-phone-right">
+						<img src="https://i8.mifile.cn/v1/a1/5c55b30b-abd9-3a52-7f8b-7322d288835d!360x360.webp" alt="">
+						<div class="text1">小米8 屏幕指纹版</div>
+						<div class="text2">压感屏幕指纹，潮流外观</div>
+						<div class="text3">
+							<i class="iconfont">&#xe645;</i>3099
+							<span>起</span>
+							<em><i class="iconfont">&#xe645;</i><s>3199</s></em>
+						</div>
+					</div>
+				</div>
+				<!-- 超级推荐结束 -->
+
+
+			</main>
+			<!-- 底部开始 -->
+			<ul class="tab">
+				<li class="list1">
+					<a href="">
+						<div class="tab-tu1"></div>
+						<div class="text1">首页</div>
+					</a>
+				</li>
+				<li class="list2">
+					<a href="">
+						<div class="tab-tu2"></div>
+						<div class="text2">分类</div>
+					</a>
+				</li>
+				<li class="list3">
+					<a href="">
+						<div class="tab-tu3"></div>
+						<div class="text3">购物车</div>
+					</a>
+				</li>
+				<li class="list4">
+					<a href="">
+						<div class="tab-tu4"></div>
+						<div class="text4">我的</div>
+					</a>
+				</li>
+			</ul>
+			<!-- 底部开始 -->
+		</div>
+	</body>
+</html>

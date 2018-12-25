@@ -1,0 +1,386 @@
+.root{
+	max-width: 640px;
+	height: 100vh;
+	margin: 0 auto;
+}
+.head{
+	width: 100%;
+	height: 2.14rem;
+	background: #f2f2f2;
+}
+.head-top{
+	width: 100%;
+	height: 1.2rem;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	padding: 0 0.48rem;
+	box-sizing: border-box;
+}
+.head-top-logo{
+	width: 0.73rem;
+	height: 0.47rem;
+	font-size: 0;
+}
+.head-top-logo img{
+	width: 0.73rem;
+	height: 0.47rem;
+}
+
+.head-top-sousuo{
+	width: 7.75rem;
+	height: 0.88rem;
+	font-size: 0.4rem;
+	line-height: 0.88rem;
+	color: #b8b8b8;
+}
+.head-top-my{
+	width: 0.46rem;
+	height: 0.57rem;
+	font-size: 0;
+}
+.head-top-my img{
+	width: 0.46rem;
+	height: 0.57rem;
+}
+.head-bottom{
+	width: 100%;
+	height: 0.94rem;
+	padding: 0 0.48rem;
+	box-sizing: border-box;
+	display: flex;
+}
+.head-bottom .list{
+	width: 100%;
+	height: 100%;
+	overflow: auto;
+}
+.head-bottom .list::-webkit-scrollbar{
+	width: 0;
+	height: 0;
+}
+					
+.head-bottom .icon{
+	width: 0.40rem;
+	height: 0.94rem;
+	font-size: 0.50rem;
+	line-height: 0.94rem;
+	text-align: center;
+	color: #a5a5a5;
+}
+
+.head-bottom .list ul{
+	width: 200%;
+	height: 0.94rem;
+	display: flex;
+	align-items: center;
+	flex-shrink: 0;
+}
+.head-bottom .list>ul>li{
+	height: 0.38rem;
+	padding:0 0.4rem;
+	font-size: 0.36rem;
+	line-height: 0.38rem;
+	text-align: center;
+	color:#a5a5a5;
+	
+}
+.head-bottom .list>ul>li:first-child{
+	padding-left:0;
+}
+.head{
+	position: fixed;
+	left: 0;
+	top: 0;
+	z-index: 9999;
+}
+/* 头部结束 */
+main{
+	padding: 2.14rem 0;
+}
+/* banner开始 */
+.banner{
+	width: 100%;
+	height: 5.4rem;
+	overflow: hidden;
+	position: relative;
+}
+.banner ul{
+	width: 300%;
+	height: 100%;
+	display: flex;
+}
+.banner>ul>li{
+	width: 33.33%;
+	height: 100%;
+}
+.banner>ul>li>img{
+	width: 100%;
+	height: 5.4rem;
+}
+.dian{
+	width: 100%;
+	height: 0.22rem;
+	left: 0;
+	bottom: 0.38rem;
+	position: absolute;
+	display: flex;
+	justify-content: center;
+}
+.dian>div{
+	width: 0.22rem;
+	height: 0.22rem;
+	border-radius: 50%;
+	background: rgba(255,255,255,0.5);
+	margin-left: 0.26rem;
+}
+.dian>div:first-child{
+	margin-left: 0;
+	background: #fff;
+}
+/* banner结束 */
+/* 菜单开始 */
+.menu{
+	width: 100%;
+	height: 4.54rem;
+	display: flex;
+	flex-wrap: wrap;
+	margin-bottom: 0.2rem;
+}
+.menu a{
+	width: 20%;
+	height: 50%;
+}
+.menu a img{
+	width: 100%;
+	height: 100%;
+}
+
+/* 菜单结束 */
+/* 内容1开始 */
+.con1{
+	width: 100%;
+	height: 7.62rem;
+	display: flex;
+	margin-bottom: 0.2rem;
+}
+.con1>div{
+	width: 49.5%;
+	height: 100%;
+	margin-left: 1%;
+}
+.con1 .con1-left{
+	margin-left: 0;
+}
+.con1-left img{
+	width: 100%;
+	height: 100%;
+}
+.con1-right{
+	display: flex;
+	flex-direction: column;
+}
+.con1-right>div{
+	width: 100%;
+	height: 3.76rem;
+	margin-top: 0.1rem;
+}
+.con1-right .con1-right-top{
+	margin-top: 0;
+}
+.con1-right .con1-right-top img{
+	width: 100%;
+	height: 100%;
+}
+.con1-right .con1-right-bottom img{
+	width: 100%;
+	height: 100%;
+}
+.tu1{
+	width: 100%;
+	height: 4.22rem;
+}
+.tu1 img{
+	width: 100%;
+	height: 100%;
+}
+.con1-tu{
+	width: 100%;
+	height: 4.22rem;
+	margin-bottom: 0.2rem;
+}
+.con1-tu img{
+	width: 100%;
+	height: 100%;
+}
+/* 内容1结束 */
+/* 超级推荐开始 */
+
+.super-tu{
+	width: 100%;
+	height: 6.62rem;
+}
+.super-tu img{
+	width: 100%;
+	height: 100%;
+}
+.super-phone{
+	width: 100%;
+	height: 7.64rem;
+	display: flex;
+}
+.super-phone>div{
+	width: 49.5%;
+	height: 100%;
+	margin-left: 1%;
+}
+.super-phone .super-phone-left{
+	margin-left: 0;
+}
+
+.super-phone .super-phone-left img{
+	width: 100%;
+	height: 5.4rem%;
+}
+.super-phone .super-phone-left .text1{
+	font-size: 0.38rem;
+	line-height: 0.4rem;
+	color: #141414;
+	margin: 0.22rem 0 0.18rem 0.4rem;
+}
+.super-phone .super-phone-left .text2{
+	font-size: 0.32rem;
+	line-height: 0.4rem;
+	color: #a8a8a8;
+	margin: 0 0 0.12rem 0.4rem;
+
+}
+.super-phone .super-phone-left .text3{
+	font-size: 0.34rem;
+	line-height: 0.4rem;
+	color: #ea625b;
+	margin: 0 0 0 0.4rem;
+
+}
+.super-phone .super-phone-left .text3 span{
+	font-size: 0.28rem;
+}
+
+
+.super-phone .super-phone-right img{
+	width: 100%;
+	height: 5.4rem%;
+}
+.super-phone .super-phone-right .text1{
+	font-size: 0.38rem;
+	line-height: 0.4rem;
+	color: #141414;
+	margin: 0.22rem 0 0.18rem 0.4rem;
+}
+.super-phone .super-phone-right .text2{
+	font-size: 0.32rem;
+	line-height: 0.4rem;
+	color: #a8a8a8;
+	margin: 0 0 0.12rem 0.4rem;
+
+}
+.super-phone .super-phone-right .text3{
+	font-size: 0.34rem;
+	line-height: 0.4rem;
+	color: #ea625b;
+	margin: 0 0 0 0.4rem;
+
+}
+.super-phone .super-phone-right .text3 span{
+	font-size: 0.28rem;
+}
+.super-phone .super-phone-right .text3 em{
+	color: rgba(0,0,0,.54);
+}
+
+/* 超级推荐结束 */
+/* 底部开始 */
+.tab{
+	width: 100%;
+	height: 1.4rem;
+	position: fixed;
+	left: 0;
+	bottom: 0;
+	background: #fff;
+	box-shadow: 0 -0.01rem 0.9rem 0 rgba(0,0,0,0.2);
+	display: flex;
+}
+
+.tab>li{
+	width: 25%;
+	height: 100%;
+	padding: 0.25rem ;
+	box-sizing: border-box;
+}
+.tab>li>a{
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+}
+.tab>li .tab-tu1{
+	background-image: url(../img/shouye1.png);
+	background-size: 0.6rem 0.54rem;
+	width: 0.6rem;
+	height: 0.54rem;
+	
+}
+.tab>li>a .text1{
+	font-size: 0.32rem;
+	line-height: 0.36rem;
+	color: #a2a2a2;
+}
+
+
+.tab>li .tab-tu2{
+	background-image: url(../img/fenlei1.png);
+	background-size: 0.6rem 0.54rem;
+	width: 0.6rem;
+	height: 0.54rem;
+	
+}
+.tab>li>a .text2{
+	font-size: 0.32rem;
+	line-height: 0.36rem;
+	color: #a2a2a2;
+}
+
+.tab>li .tab-tu3{
+	background-image: url(../img/gouwuche1.png);
+	background-size: 0.6rem 0.54rem;
+	width: 0.6rem;
+	height: 0.54rem;
+	
+}
+.tab>li>a .text3{
+	font-size: 0.32rem;
+	line-height: 0.36rem;
+	color: #a2a2a2;
+}
+
+.tab>li .tab-tu4{
+	background-image: url(../img/wode1.png);
+	background-size: 0.6rem 0.54rem;
+	width: 0.6rem;
+	height: 0.54rem;
+	
+}
+.tab>li>a .text4{
+	font-size: 0.32rem;
+	line-height: 0.36rem;
+	color: #a2a2a2;
+}
+/* 底部结束 */
+
+
+.tab .list1 .tab-tu1{
+	background-image:url(../img/shouye2.png) ;
+}
+.tab .list1 .text1{
+	color: #ff6700;
+}
+

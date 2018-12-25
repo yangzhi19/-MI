@@ -1,0 +1,76 @@
+/* 底部开始 */
+.tab{
+	width: 100%;
+	height: 1.4rem;
+	position: fixed;
+	left: 0;
+	bottom: 0;
+	background: #fff;
+	box-shadow: 0 -0.01rem 0.9rem 0 rgba(0,0,0,0.2);
+	display: flex;
+}
+
+.tab>li{
+	width: 25%;
+	height: 100%;
+	padding: 0.25rem ;
+	box-sizing: border-box;
+}
+.tab>li>a{
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+}
+.tab>li .tab-tu1{
+	background-image: url(../img/shouye1.png);
+	background-size: 0.6rem 0.54rem;
+	width: 0.6rem;
+	height: 0.54rem;
+	
+}
+.tab>li>a .text1{
+	font-size: 0.32rem;
+	line-height: 0.36rem;
+	color: #a2a2a2;
+}
+
+
+.tab>li .tab-tu2{
+	background-image: url(../img/fenlei1.png);
+	background-size: 0.6rem 0.54rem;
+	width: 0.6rem;
+	height: 0.54rem;
+	
+}
+.tab>li>a .text2{
+	font-size: 0.32rem;
+	line-height: 0.36rem;
+	color: #a2a2a2;
+}
+
+.tab>li .tab-tu3{
+	background-image: url(../img/gouwuche1.png);
+	background-size: 0.6rem 0.54rem;
+	width: 0.6rem;
+	height: 0.54rem;
+	
+}
+.tab>li>a .text3{
+	font-size: 0.32rem;
+	line-height: 0.36rem;
+	color: #a2a2a2;
+}
+
+.tab>li .tab-tu4{
+	background-image: url(../img/wode1.png);
+	background-size: 0.6rem 0.54rem;
+	width: 0.6rem;
+	height: 0.54rem;
+	
+}
+.tab>li>a .text4{
+	font-size: 0.32rem;
+	line-height: 0.36rem;
+	color: #a2a2a2;
+}
+/* 底部结束 */
