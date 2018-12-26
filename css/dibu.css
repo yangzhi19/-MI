@@ -13,25 +13,27 @@
 .tab>li{
 	width: 25%;
 	height: 100%;
-	padding: 0.25rem ;
-	box-sizing: border-box;
+	display: flex;
+	justify-content: center;
 }
 .tab>li>a{
 	display: flex;
 	flex-direction: column;
 	align-items: center;
+	justify-content: center;
 }
 .tab>li .tab-tu1{
 	background-image: url(../img/shouye1.png);
 	background-size: 0.6rem 0.54rem;
 	width: 0.6rem;
 	height: 0.54rem;
-	
+	margin-bottom: 0.14rem;
 }
 .tab>li>a .text1{
 	font-size: 0.32rem;
 	line-height: 0.36rem;
 	color: #a2a2a2;
+	height: 0.36rem;
 }
 
 

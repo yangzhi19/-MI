@@ -13,12 +13,17 @@ a{
 }
 @font-face {
   font-family: 'iconfont';  /* project id 974155 */
-  src: url('//at.alicdn.com/t/font_974155_trz4ibju27.eot');
-  src: url('//at.alicdn.com/t/font_974155_trz4ibju27.eot?#iefix') format('embedded-opentype'),
-  url('//at.alicdn.com/t/font_974155_trz4ibju27.woff') format('woff'),
-  url('//at.alicdn.com/t/font_974155_trz4ibju27.ttf') format('truetype'),
-  url('//at.alicdn.com/t/font_974155_trz4ibju27.svg#iconfont') format('svg');
+  src: url('//at.alicdn.com/t/font_974155_kmfb0uql4rl.eot');
+  src: url('//at.alicdn.com/t/font_974155_kmfb0uql4rl.eot?#iefix') format('embedded-opentype'),
+  url('//at.alicdn.com/t/font_974155_kmfb0uql4rl.woff') format('woff'),
+  url('//at.alicdn.com/t/font_974155_kmfb0uql4rl.ttf') format('truetype'),
+  url('//at.alicdn.com/t/font_974155_kmfb0uql4rl.svg#iconfont') format('svg');
 }
 .iconfont{
 	font-family: 'iconfont';
+}
+.root{
+	max-width: 640px;
+	height: 100vh;
+	margin: 0 auto;
 }

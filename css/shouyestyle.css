@@ -315,10 +315,10 @@ main{
 .tab>li{
 	width: 25%;
 	height: 100%;
+	display: flex;
+	justify-content: center;
 }
 .tab>li>a{
-	width: 100%;
-	height: 100%;
 	display: flex;
 	flex-direction: column;
 	align-items: center;
@@ -329,7 +329,7 @@ main{
 	background-size: 0.6rem 0.54rem;
 	width: 0.6rem;
 	height: 0.54rem;
-	
+	margin-bottom: 0.14rem;
 }
 .tab>li>a .text1{
 	font-size: 0.32rem;

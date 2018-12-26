@@ -1,0 +1,135 @@
+.tab .list2 .tab-tu2{
+	background-image:url(../img/fenlei2.png) ;
+}
+.tab .list2 .text2{
+	color: #ff6700;
+}
+/* 头部开始 */
+.head{
+	width: 100%;
+	height: 1.5rem;
+	background: #f2f2f2;
+	font-size: 0.58rem;
+	color: #929292;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	padding: 0 0.5rem;
+	box-sizing: border-box;
+	left: 0;
+	top: 0;
+	position: fixed;
+}
+.head span{
+	font-size: 0.42rem;
+	color: #666666;
+}
+/* 头部结束 */
+main{
+	padding: 1.5rem 0;
+	background: #fff;
+	height: 100vh;
+	width: 100%;
+}
+.con{
+	width: 100%;
+	height: 100%;
+	display: flex;
+
+}
+.con .con-left{
+	width: 2.25rem;
+	height: 100%;
+	overflow: auto;
+	border-right: 0.02rem solid #efefef;
+	box-sizing: border-box;
+}
+.con .con-left::-webkit-scrollbar{
+	width: 0;
+	height: 0;
+}
+.con .con-left>ul{
+	width: 100%;
+	height:200%;
+}
+.con .con-left>ul>li{
+	width: 100%;
+	height: 1.4rem;
+	font-size: 0.38rem;
+	line-height: 1.4rem;
+	color: #3c3c3c;
+	text-align: center;
+}
+.con .con-left>ul>li:first-child{
+	color: #fb7d34;
+}
+.con .con-right{
+	width: calc(100% - 2.25rem);
+	height: 100%;
+	padding: 0 0.5rem;
+	box-sizing: border-box;
+	overflow: auto;
+}
+.con .con-right::-webkit-scrollbar{
+	width: 0;
+	height: 0;
+}
+.con .con-right .tu{
+	width: 100%;
+	height: 3rem;
+	margin-bottom: 0.34rem;
+}
+.con .con-right .tu img{
+	width: 100%;
+	height: 100%;
+}
+.con .con-right .name{
+	width: 100%;
+	height: 1.17rem;
+	font-size: 0.38rem;
+	color: #3c3c3c;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+.con .con-right .name .line{
+	width: 0.6rem;
+	height: 0.03rem;
+	background: #e0e0e0;
+}
+.con .con-right .name span{
+	margin: 0 0.32rem;
+}
+.con .con-right .shop{
+	width: 100%;
+	height: 6.2rem;
+	display: flex;
+	flex-wrap: wrap;
+}
+.con .con-right .shop>div{
+	width: 33.333%;
+	height: 3.1rem;
+	font-size: 0.32rem;
+	color: #757575;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+}
+.con .con-right .shop>div .shop-tu{
+	width: 1.5rem;
+	height: 1.5rem;
+}
+.con .con-right .shop>div img{
+	width: 100%;
+	height: 100%;
+}
+.con .con-right .shop>div .shop-text{
+	width: 100%;
+	padding: 0 0.2rem;
+	overflow: hidden;
+	text-overflow: ellipsis;
+	white-space: nowrap;
+	text-align: center;
+	box-sizing: border-box;
+}
