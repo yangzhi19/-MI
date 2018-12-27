@@ -1,0 +1,142 @@
+.logo{
+	width: 100%;
+	height: 3.74rem;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	font-size: 0.5rem;
+}
+.logo img{
+	width: 1.46rem;
+	height: 1.46rem;
+	margin-bottom: 0.58rem;
+}
+.shuru{
+	width: 100%;
+	height: 3.32rem;
+	padding: 0 0.82rem;
+	box-sizing: border-box;
+	margin-bottom: 0.68rem;
+	
+}
+.shuru>div{
+	width: 100%;
+	height:50%;
+	display: flex;
+	align-items: center;
+	font-size: 0.5rem;
+	border-bottom: 0.02rem solid #d3d3d3;
+	color: #9b9b9b;
+}
+.shuru .zhanghao input{
+	outline: none;
+	border: none;
+	margin-left: 0.4rem;
+	height: 100%;
+	font-size: 0.5rem;
+	color: #9b9b9b;
+}
+.shuru .mima{
+	justify-content: space-between;
+}
+.shuru .mima .text{
+	color: #3da0d7;
+	padding-right:0.62rem;
+	font-size: 0.38rem;
+}
+.shuru .mima input{
+	outline: none;
+	border: none;
+	margin-left: 0.4rem;
+	height: 98%;
+	font-size: 0.5rem;
+	color: #9b9b9b;
+}
+.anniu{
+	width: 9.12rem;
+	height: 1.36rem;
+	border-radius: 0.1rem;
+	background: #ff6801;
+	margin: 0.7rem auto;
+	font-size: 0.46rem;
+	line-height: 1.36rem;
+	text-align: center;
+	color: #fff;
+}
+.anniu2{
+	background: #fff;
+	color: #161616;
+	border: 0.03rem solid #d3d3d3;
+	box-sizing: border-box;
+}
+.qita{
+	width: 100%;
+	height: 1.1rem;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	font-size: 0.36rem;
+	color: #b0b0b0;
+	margin-bottom: 0.4rem;
+}
+.qita .line{
+	width: 3.34rem;
+	height: 0.03rem;
+	background: #f2f2f2;
+}
+.qita span{
+	margin: 0 0.16rem;
+}
+.zhifu{
+	width: 100%;
+	height: 1.3ren;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	margin-bottom: 2rem;
+}
+.zhifu>div{
+	width: 0.92rem;
+	height: 0.92rem;
+	border-radius: 50%;
+	margin-left: 0.72rem;
+}
+.zhifu .weibo{
+	margin-left: 0;
+	background: url(../img/weibojingling.png) no-repeat;
+	background-color: #ec9190;
+	background-size: auto 0.75rem;
+	background-position: -1.45rem center;
+}
+.zhifu .zhifubao{
+	background: url(../img/weibojingling.png) no-repeat;
+	background-color: #3DA0D7;
+	background-size: auto 0.75rem;
+	background-position: -2.35rem center;
+}
+.zhifu .weixin{
+	background: url(../img/weibojingling.png) no-repeat;
+	background-color: #00be00;
+	background-size: auto 0.75rem;
+	background-position: -3.5rem center;
+
+}
+.di-text{
+	width: 100%;
+	height: 0.68rem;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	font-size: 0.4rem;
+	color: #9b9b9b;
+}
+.di-text .di-line{
+	width: 0.03rem;
+	height: 0.36rem;
+	margin: 0 0.35rem;
+	background: #9b9b9b;
+}
+.di-text div:first-child{
+	color: #4a4a4a;
+}
